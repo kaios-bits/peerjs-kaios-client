@@ -1,11 +1,11 @@
-import React from "react"
+import css from "./Info.module.css";
 
 const Info = ({ text, isMessage }) => {
-  const style = isMessage ? { color: "red" } : {};
+  const style = isMessage ? css.message : css.prompt;
 
   return (
-    <div>
-      <span style={style}>{text}</span>
+    <div className={css.info}>
+      <span className={style}>{text}</span>
     </div>
   );
 };

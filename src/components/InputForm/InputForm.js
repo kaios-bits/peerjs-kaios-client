@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { keys } from "../../config";
+import css from "./InputForm.module.css";
 
 const InputForm = React.forwardRef((props, ref) => {
   const { label, onSubmit, onSoftLeft, isActive, code } = props;
@@ -33,6 +34,7 @@ const InputForm = React.forwardRef((props, ref) => {
 
   const input = (
     <input
+      className={css.input}
       ref={ref}
       type="text"
       value={value}
@@ -41,12 +43,12 @@ const InputForm = React.forwardRef((props, ref) => {
     />
   );
 
-  const id = (<span>{code}</span>);
+  const id = (<span className={css.code}>{code}</span>);
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={css.inputForm} onSubmit={handleSubmit}>
       <label>
-        {label}{": "}
+        <span className={css.label}>{label}{":"}</span>
         {isActive ? input : id}
       </label>
     </form>

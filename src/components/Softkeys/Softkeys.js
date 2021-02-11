@@ -1,13 +1,11 @@
-import React from "react"
+import css from "./Softkeys.module.css";
 
 const Softkeys = ({ left, center, right }) => {
   return (
-    <div>
-      <label>{left}</label>
-      {" | "}
-      <label>{center}</label>
-      {" | "}
-      <label>{right}</label>
+    <div className={css.softKeys}>
+      <label className={css.left}>{left}</label>
+      <label className={css.center}>{center}</label>
+      <label className={css.right}>{right}</label>
     </div>
   );
 };

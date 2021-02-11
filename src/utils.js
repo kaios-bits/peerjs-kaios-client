@@ -42,8 +42,8 @@ export const refs = {
 export const getSoftKeyProps = status => {
   const map = {
     Registration: { left: null, center: "JOIN", right: "Clear" },
-    Listening: { left: "Leave", center: "CONNECT", right: "Clear" },
-    Conversation: { left: null, center: "TERMINATE", right: null }
+    Listening: { left: "Leave", center: "CALL", right: "Clear" },
+    Conversation: { left: null, center: "LEAVE", right: null }
   };
   return map[status];
 };
@@ -52,7 +52,7 @@ export const getInfo = status => {
   const map = {
     Registration: "Please, input your code.",
     Listening: "Wait for conversation or connect to your contact.",
-    Conversation: "Talk to contact."
+    Conversation: "Talk with contact."
   };
   return map[status];
 };

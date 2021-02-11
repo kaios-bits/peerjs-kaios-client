@@ -1,9 +1,9 @@
-import React from "react"
+import css from "./Header.module.css";
 
 const Header = ({ title }) => {
   return (
-    <header>
-      <span>{title}</span>
+    <header className={css.header}>
+      <span className={css.title}>{title}</span>
     </header>
   );
 };

@@ -5,12 +5,12 @@ export const peerConfig = {
   debug: 2
 };
 
+// export const peerConfig = {};
+
 export const keys = {
   left: "ArrowLeft",
   right: "ArrowRight"
 };
-
-// export const peerConfig = {};
 
 // export const keys = {
 //   left: "SoftLeft",

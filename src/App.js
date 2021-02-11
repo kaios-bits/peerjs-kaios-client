@@ -63,7 +63,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <>
       <Header title={state.status} />
       <InputForm
         ref={u.refs.Registration}
@@ -87,7 +87,7 @@ const App = () => {
       <Info text={u.getInfo(state.status)} />
       <Info text={state.message} isMessage={true} />
       <Softkeys {...u.getSoftKeyProps(state.status)} />
-    </div>
+    </>
   );
 }
 
