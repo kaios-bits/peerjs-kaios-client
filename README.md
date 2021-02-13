@@ -1,5 +1,7 @@
 ## Audio Call via WebRTC: React Application for KaiOS
 
+Based on [PEER JS](https://peerjs.com/peerserver.html) library.
+
 #### Create an empty npm project for local peer server:
 ```json
 {
@@ -36,6 +38,8 @@
 
 ### Prebuilt code
 Download [prebuilt code](https://downgit.github.io/#/home?url=https://github.com/iurii-kyrylenko/kaios-web-phone/tree/master/build), unzip it and install on your device.
+
+⚠️  Audio streams go directly between phones. But we also need a signalling server. Prebuilt code currently works with a free [PeerServer Cloud service](https://peerjs.com/peerserver.html). Please be aware that you will be sharing it with other people and IDs may collide.
 
 ---
 
