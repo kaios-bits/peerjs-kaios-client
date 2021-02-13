@@ -47,7 +47,7 @@ Download [prebuilt code](https://downgit.github.io/#/home?url=https://github.com
 
 The conversation can be established by you or by your contact:
 1. To receive a call, you provide only your ID and wait for conversation. Conversation begins when somebody calls you.
-2. To begin a conversation, you enter two IDs (yours and contact's) and perform a call. 
+2. To begin a conversation, you enter two IDs (yours and contact's) and perform a call.
 
 Application has three screens:
 1. **Registration**:
@@ -57,6 +57,16 @@ Application has three screens:
   - or to start conversation with your contact.
 3. **Conversation**:
   - to talk with the contact.
+
+---
+
+**During registration, you will get a message**:
+```
+Would you like to share your camera and microphone with React Web Phone?
+```
+**Please, allow sharing!**
+
+---
 
 ### Example: Alex call Alice.
 
@@ -74,7 +84,7 @@ Application has three screens:
 |![05-listening](examples/05-listening.png)|
 | Alex remains listening,</br>because Alice has not registered yet:|
 |![06-listening](examples/06-listening.png)|
-||Alice registers|
+||Alice registers:|
 ||![08-listening](examples/08-listening.png)|
-| Alex presses the **Call** again<br/>after Alice has registered.<br/>Alex can talk to Alice:|Alice can talk to Alex|
+| Alex presses the **Call** again<br/>after Alice has registered.<br/>Alex can talk to Alice:|Alice can talk to Alex:|
 |![09-conversation](examples/09-conversation.png)|![10-conversation](examples/10-conversation.png)|
