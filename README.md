@@ -62,7 +62,7 @@ Application has three screens:
 
 **During registration, you will get a message**:
 ```
-Would you like to share your camera and microphone with React Web Phone?
+Would you like to share your camera and microphone with KaiOS Web Phone?
 ```
 **Please, allow sharing!**
 
