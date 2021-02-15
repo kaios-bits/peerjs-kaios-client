@@ -31,7 +31,7 @@ Based on [PEER JS](https://peerjs.com/peerserver.html) library.
 
 #### Build application for deployment:
 1. Edit file `src/config.js`
-2. Run `GENERATE_SOURCEMAP=false yarn build`
+2. Run `yarn build`
 3. Deploy `build` folder to the device.
 
 ---

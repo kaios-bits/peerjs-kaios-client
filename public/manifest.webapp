@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "React Web Phone",
+  "name": "KaiOS Web Phone",
   "description": "Simple audio call",
   "type": "web",
   "launch_path": "/index.html",
@@ -19,7 +19,7 @@
   },
   "locales": {
     "en-US": {
-      "name": "React Web Phone",
+      "name": "KaiOS Web Phone",
       "subtitle": "Simple audio call",
       "description": "Simple audio call"
     }
