@@ -2,7 +2,7 @@
 //   host: window.location.hostname,
 //   port: 9000,
 //   path: '/web-phone',
-//   debug: 2
+//   debug: 3
 // };
 
 export const peerConfig = {};
